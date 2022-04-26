@@ -41,6 +41,7 @@ class Recorder {
     recorder.setAudioSource(MediaRecorder.AudioSource.MIC);
     recorder.setAudioEncodingBitRate(bitRate);
     recorder.setAudioSamplingRate((int) samplingRate);
+    recorder.setAudioChannels(2);
     recorder.setOutputFormat(getOutputFormat(encoder));
     // must be set after output format
     recorder.setAudioEncoder(getEncoder(encoder));
