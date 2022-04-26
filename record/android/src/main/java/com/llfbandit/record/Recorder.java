@@ -164,7 +164,7 @@ class Recorder {
       return MediaRecorder.OutputFormat.THREE_GPP;
     }
 
-    return MediaRecorder.OutputFormat.MPEG_4;
+    return MediaRecorder.OutputFormat.AAC_ADTS;
   }
 
   // https://developer.android.com/reference/android/media/MediaRecorder.AudioEncoder
